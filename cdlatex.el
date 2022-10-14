@@ -1497,6 +1497,8 @@ zZ
      "" cdlatex-environment ("enumerate") t nil)
     ("equ"       "Insert an EQUATION environment template"
      "" cdlatex-environment ("equation") t nil)
+    ("equ*"      "Insert an EQUATION environment template"
+     "" cdlatex-environment ("equation*") t nil)
     ("eqn"       "Insert an EQUATION environment template"
      "" cdlatex-environment ("eqnarray") t nil)
     ("ali"       "Insert an ALIGN environment template"
@@ -1810,6 +1812,14 @@ AUTOLABEL
 AUTOLABEL
 ?
 \\end{equation}"
+nil
+)
+;;------------------------------------
+( "equation*"
+"\\begin{equation*}
+AUTOLABEL
+?
+\\end{equation*}"
 nil
 )
 ;;------------------------------------
